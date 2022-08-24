@@ -1,0 +1,16 @@
+
+.button {
+    -fx-font-family: 'Asap', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    -fx-text-transform: uppercase;
+    width: 80px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    -fx-background-color: rgba(244, 91, 105, 1);
+    @include transition(background-color 300ms);
+  }
